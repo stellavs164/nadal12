@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <header>
-      <h1><span class="first-name">FirstName</span> <span class="last-name">LastName</span></h1>
+      <h1><span class="first-name" id="fName"></span> <span class="last-name" id="lName"></span></h1>
     </header>
 
     <hr class="divider"/>
@@ -25,6 +25,9 @@
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid odio in quo molestias natus impedit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ratione eos tempore blanditiis est doloribus optio vel assumenda beatae. Officiis.
           </p>
+
+          <p><strong>Age:</strong> <span id="age">28</span></p>
+
         </div>
       </div>
 
@@ -32,7 +35,7 @@
         <div class="grid-item contact">
           <h3>Contact</h3>
           <p><i class="fa-solid fa-phone"></i> 000 000 000</p>
-          <p><i class="fa-solid fa-envelope"></i> xxx@mail.com</p>
+          <p><i class="fa-solid fa-envelope"></i> <span id="email"></span></p>
         </div>
 
         <div class="grid-item experience">
@@ -71,6 +74,7 @@
   </div>
 
   <script src="app.js"></script>
+  <script src="profile.js"></script>
   
 </body>
 </html>
