@@ -4,6 +4,7 @@ fetch('profile.json')
     document.getElementById('fName').textContent = data.fName;
     document.getElementById('lName').textContent = data.lName;
     document.getElementById('email').textContent = data.email;
+    document.getElementById('phone').textContent = data.phone;
     if (document.getElementById('age')) {
       document.getElementById('age').textContent = data.age;
     }
